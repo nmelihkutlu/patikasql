@@ -32,7 +32,7 @@ Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden ger�
     > Smith
 
 5. film tablosundaki uzunluğu(length) 50 ten büyük OLMAYIP aynı zamanda rental_rate değeri 2.99 veya 4.99 OLMAYAN verileri sıralayınız.
-    > SELECT last_name FROM film WHERE NOT (length > 50) AND NOT (rental_rate = 2.99 OR 4.99)
+    > SELECT * FROM film WHERE NOT (length > 50) AND NOT (rental_rate = 2.99 OR rental_rate = 4.99)
 
 
 ## Ödev 2
