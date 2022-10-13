@@ -7,7 +7,7 @@
 
 
 
-[Ödev1](#ödev-1) - [Ödev2](#ödev-2) - [Ödev3](#ödev-3) - [Ödev4](#ödev-4) - [Ödev5](#ödev-5) - [Ödev6](#ödev-6) - [Ödev7](#ödev-7) - [Ödev8](#ödev-8) - [Ödev9](#ödev-9)
+[Ödev1](#ödev-1) - [Ödev2](#ödev-2) - [Ödev3](#ödev-3) - [Ödev4](#ödev-4) - [Ödev5](#ödev-5) - [Ödev6](#ödev-6) - [Ödev7](#ödev-7) - [Ödev8](#ödev-8) - [Ödev9](#ödev-9) - [Ödev10](#ödev-10)
 
 
 ## Ödev 1
@@ -205,3 +205,15 @@ Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden ger�
 
 3. customer tablosu ile rental tablosunda bulunan rental_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
     > SELECT rental.rental_id, customer.first_name, customer.last_name FROM customer INNER JOIN rental ON rental.customer_id = customer.customer_id
+
+## Ödev 10
+1. city tablosu ile country tablosunda bulunan şehir (city) ve ülke (country) isimlerini birlikte görebileceğimiz LEFT JOIN sorgusunu yazınız.
+    > SELECT city.city, country.country FROM city LEFT JOIN country ON country.country_id = city.city_id
+
+
+2. customer tablosu ile payment tablosunda bulunan payment_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz RIGHT JOIN sorgusunu yazınız.
+    > SELECT payment.payment_id, customer.first_name, customer.last_name FROM customer RIGHT JOIN payment ON payment.customer_id = customer.customer_id
+
+
+3. customer tablosu ile rental tablosunda bulunan rental_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz FULL JOIN sorgusunu yazınız.
+    > SELECT rental.rental_id, customer.first_name, customer.last_name FROM customer RIGHT JOIN rental ON rental.customer_id = customer.customer_id
