@@ -7,7 +7,7 @@
 
 
 
-[Ödev1](#ödev-1) - [Ödev2](#ödev-2) - [Ödev3](#ödev-3) - [Ödev4](#ödev-4) - [Ödev5](#ödev-5) - [Ödev6](#ödev-6) - [Ödev7](#ödev-7) - [Ödev8](#ödev-8)
+[Ödev1](#ödev-1) - [Ödev2](#ödev-2) - [Ödev3](#ödev-3) - [Ödev4](#ödev-4) - [Ödev5](#ödev-5) - [Ödev6](#ödev-6) - [Ödev7](#ödev-7) - [Ödev8](#ödev-8) - [Ödev9](#ödev-9)
 
 
 ## Ödev 1
@@ -193,4 +193,15 @@ insert into employee  (id, name, birthday, email) values (50, 'Myrtie', '2022-01
 
 4. Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
     > DELETE FROM employee WHERE id IN (5,6,7,8,9,10)
-    
+
+## Ödev 9
+Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden gerçekleştiriniz.
+
+1. city tablosu ile country tablosunda bulunan şehir (city) ve ülke (country) isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
+    > SELECT city.city, country.country FROM city INNER JOIN country ON country.country_id = city.city_id
+
+2. customer tablosu ile payment tablosunda bulunan payment_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
+    > SELECT payment.payment_id, customer.first_name, customer.last_name FROM customer INNER JOIN payment ON payment.customer_id = customer.customer_id
+
+3. customer tablosu ile rental tablosunda bulunan rental_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
+    > SELECT rental.rental_id, customer.first_name, customer.last_name FROM customer INNER JOIN rental ON rental.customer_id = customer.customer_id
