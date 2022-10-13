@@ -7,7 +7,7 @@
 
 
 
-[Ödev1](#ödev-1) - [Ödev2](#ödev-2) - [Ödev3](#ödev-3) - [Ödev4](#ödev-4) - [Ödev5](#ödev-5) - [Ödev6](#ödev-6) - [Ödev7](#ödev-7) - [Ödev8](#ödev-8) - [Ödev9](#ödev-9) - [Ödev10](#ödev-10) - [Ödev11](#ödev-11)
+[Ödev1](#ödev-1) - [Ödev2](#ödev-2) - [Ödev3](#ödev-3) - [Ödev4](#ödev-4) - [Ödev5](#ödev-5) - [Ödev6](#ödev-6) - [Ödev7](#ödev-7) - [Ödev8](#ödev-8) - [Ödev9](#ödev-9) - [Ödev10](#ödev-10) - [Ödev11](#ödev-11) - [Ödev12](#ödev-12)
 
 
 ## Ödev 1
